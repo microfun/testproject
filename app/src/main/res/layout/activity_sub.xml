@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".SubActivity">
+
+    <data>
+        <variable
+            name="activitysub"
+            type="com.example.testproject.SubActivity" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/activity_sub_textview_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="서브 화면"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="두번째화면"/>
+
+        <Button
+            android:id="@+id/activity_sub_button_click"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="서브 버튼" />
+
+        <Button
+            android:id="@+id/activity_sub_button_repage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="돌아가기"
+            />
+
+        <TextView
+            android:id="@+id/activity_sub_textview_pone_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="핸드폰번호 입니다."/>
+
+
+
+    </LinearLayout>
+
+</layout>
